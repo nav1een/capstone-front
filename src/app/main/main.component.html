@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  
+
+  </head>
+  <body style="background-color:cornflowerblue">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <nav class="navbar navbar-expand-lg bg-light" style="background-color:aquamarine">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <a [routerLink]="['/welcome']">WELCOME</a></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <a [routerLink]="['/contact']">CONTACT</a></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                SELECT
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">ADDING</a></li>
+                <li><a class="dropdown-item" href="#">DELETING</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">UPDATE</a></li>
+              </ul>
+            </li>
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center" style="border:70%" style="background-color:antiquewhite;">Welcome TO Grocers</h1>
+    <div class="container">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:brown">
+          Popular
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+    </div>
+    <div class="container-xxxl " class="text-center" style="background-color:cyan;-beta1" ><b>A grocery store (AE), grocery 
+      shop (BE) or 
+      simply grocery is a store that primarily retails a general range of food products, which may be fresh or packaged.
+       In everyday U.S. usage, however, "grocery store" is a synonym for supermarket, and is not used to refer to other types of stores that sell groceries. In the UK, shops that sell food are distinguished as grocers
+        or grocery shops (though in everyday use, people usually
+       use either the term "supermarket" or a "corner shop" or "convenience shop").</b></div>
+    <div class="container-xxxl" class="text-center" style="background-color:green;"><b>The UK government does not define 
+      "grocery (shop)" or "supermarket" nor a distinction between them, but defines the types of store formats (whether they 
+      sell groceries, or otherwise):[7]
+
+      "One-stop shops" as over 1,400 square metres (15,000 square feet)
+      "Mid-range stores": between 280 and 1,400 square metres (3,000 and 15,000 square feet), and
+      "Convenience stores": less than 280 square metres (3,000 square feet</b></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg" style="background-color: yellow;-beta1">
+          <h3>BAKERS</h3>
+          <img src="assets/00.jpg" alt="" height="70%" width="100%">
+          <i>Bakery products, which include bread, rolls, cookies, pies, pastries, and muffins, 
+            are usually prepared from flour or meal derived from some form of grain.bakery Items are used more and more now a days</i><br>
+
+            <button class="btn btn-primary" type="submit" >READ MORE</button>
+          </div>
+          <div class="col-lg" style="background-color:red">
+          <h3>Fruits</h3>
+          <img src="assets/01.jpg" alt="" height="70%" width="100%">
+          <i>Fruits are the means by which flowering plants (also known as angiosperms) disseminate their seeds.in fact, humans and many animals have become dependent on fruits as a source of food.</i>
+           <br>
+           
+           <button class="btn btn-primary" type="submit" >READ MORE</button> 
+          </div>
+        </div>
+        <div class="row">
+          <div class="col" style="background-color:brown">
+          <h4>Pizza Hut</h4>
+          <img src="assets/02.jpg" alt="" height="60%" width="100%">
+          <i>Pizza Hut is an American multinational restaurant chain and international franchise founded in 1958 in Wichita, Kansas by Dan and Frank Carney</i><br>
+          <button class="btn btn-primary" type="submit" >READ MORE</button>
+          </div>
+          <div class="col" style="background-color: bisque;">
+            <h4>Fast Food</h4>
+            <img src="assets/03.jpg" alt="" height="60%" width="100%">
+            <i>Fast Food is an Chnese multinational restaurant chain and international franchise founded in 1958 in Wichita, Kansas by Dan and Frank Carney</i><br>
+            <button class="btn btn-primary" type="submit" >READ MORE</button>  
+          </div>
+          <div class="col" style="background-color:orange">
+            <h4>Food Industry</h4>
+          <img src="assets/04.jpg" alt="" height="60%" width="100%">
+          <i>Food Industry multinational restaurant chain and international franchise founded in 1958 in Wichita, Kansas by Dan and Frank Carney</i><br>
+          <button class="btn btn-primary" type="submit" >READ MORE</button> 
+          </div>
+        </div>
+      </div>    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  <footer class="text-center text-lg-start bg-light text-muted">
+   
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        
+        <div class="row mt-3">
+        
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>INSRUCTIONS
+            </h6>
+            <p>
+               USE PROPER INTERNET<br>
+               USE PROPER LAPTOP OR MOBILE<br>
+               UPDATE VERSIONS REGULARLY<br>
+               SHOP AS YOUN NEED<br>
+               
+            </p>
+          </div>
+         
+        
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>ONLINE GROCERS
+              </h6>
+              <p>
+              WE PROVIDE KNOWLEDGE WE ENCOURAGE ALL.STAY SAFE 
+              </p>
+            </div>
+   
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>MANGISETTY NAVEEN KUMAR </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              mnaveenkumar01012000@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 9573915468</p>
+            <p><i class="fas fa-print me-3"></i> 9381160942</p>
+          </div>
+          
+        </div>
+       
+      </div>
+    </section>
+   
+    <div class="text-center p-4" style="background-color: red;">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="">MANGISETTY NAVEEN KUMAR</a>
+    </div>
+   
+  </footer>
+</html>
+

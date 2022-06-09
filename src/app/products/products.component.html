@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+      <h1 class="text-center" style="background-color:chartreuse">Welcome TO Online grocers</h1>
+      <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+      </div>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/2.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/1.jpg" alt="" height="80%" width="100%">
+            <i>Fruits are the means by whichhumans and many animals have become  as a source of food.</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >$79</button>
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button> 
+          
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/2.jpg" alt="" height="80%" width="100%">
+            
+            <i>Fig is a fruit, also called Ficus carica, an Asian flowering plant from the mulberry</i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" ><a href="https://www.google.co.in/search?q=groceries&sxsrf=ALiCzsanzv3WLwCh86fKemogV1AI7NdJSA:1654674162262&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjfhqTNrZ34AhVzR2wGHdxnBSoQ_AUoAnoECAQQBA&biw=1536&bih=722&dpr=1.25#imgrc=Qp4VeLv3tM5Z3M">ReadMore</a></button>
+             <button class="btn btn-danger" type="submit" >$69</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/5.jpg" alt="" height="40%" width="90%">
+            <i>The papaya fruit has several health benefits associated with it.</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$599</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/4.jpg" alt="" height="70%" width="90%">
+            <i>Dates are known for their sweet, almost caramel-like flavor.</i>
+            <br>
+             
+             
+            <button class="btn btn-danger" type="submit" >$59</button> 
+            
+            <button type="button" class="btn btn-primary">Read More</button>
+             <button class="btn btn-primary" type="secondary" ><a [routerLink]="['/cart']">Add To Cart</a></button> 
+          </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/6.jpg" alt="" height="80%" width="100%">
+            <i>Dried fruit, fruit juice, and certain tropical fruits, like mangoes, tend to contain more sugar</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >$79</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/14.jpg" alt="" height="40%" width="100%">
+            <i>It's true that fruits and vegetables are lower in calories than many other foods, but they do contain some calories.</i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$69</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/8.jpg" alt="" height="40%" width="90%">
+            <i>Some of the healthiest fruits include pineapple</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$599</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/9.jpg" alt="" height="70%" width="90%">
+            <i> Grated carrots and apple combine with mashed banana, unsweetened applesauce, rolled oats, and chopped peanuts. </i>
+            <br>
+             
+             
+            <button class="btn btn-danger" type="submit" >$59</button> 
+         
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/10.jpg" alt="" height="80%" width="100%">
+            <i>When participants in the study drank one cup of chamomile tea after meals three times per day for six weeks</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >$79</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+            <img src="assets/11.jpg" alt="" height="80%" width="100%">
+            <i>When your blood sugar level gets too high — known as hyperglycemia or high blood glucose </i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$69</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+        </div>
+        <div class="col">
+            <img src="assets/12.jpg" alt="" height="40%" width="90%">
+            <i>That's not the only surprising thing about cucumbers: they also contain only 1.7g of sugar per 100g</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$599</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+           
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/00.jpg" alt="" height="70%" width="90%">
+            <i>Avocados top the list of fruits that have a high-fat content</i>
+            <br>
+             
+             
+            <button class="btn btn-danger" type="submit" >$59</button> 
+    
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col">
+          <div class="card">
+            <img src="assets/15.jpg" alt="" height="80%" width="100%">
+            <i>When participants in the study drank one cup of chamomile tea after meals three times per day for six weeks</i>
+             <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button> 
+             <button class="btn btn-danger" type="submit" >$79</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+            
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/16.jpg" alt="" height="80%" width="100%">
+            <i>When your blood sugar level gets too high — known as hyperglycemia or high blood glucose </i>
+            <br>
+             
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$69</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/17.jpg" alt="" height="40%" width="90%">
+            <i>That's not the only surprising thing about cucumbers: they also contain only 1.7g of sugar per 100g</i>
+             <br>
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button class="btn btn-danger" type="submit" >$599</button> 
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+           
+             </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="assets/20.jpg" alt="" height="70%" width="90%">
+            <i>Improvent Is good and Deploy to be done</i>
+            <br>
+             
+        
+            <button class="btn btn-danger" type="submit" >$59</button> 
+           
+             <button class="btn btn-primary" type="submit" >READ MORE</button>
+             <button type="button" class="btn btn-secondary"><a [routerLink]="['/cart']">Add To Cart</a></button>
+             </div> 
+        </div>
+      </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+  <footer class="text-center text-lg-start bg-light text-muted">
+   
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        
+        <div class="row mt-3">
+        
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>INSRUCTIONS
+            </h6>
+            <p>
+               USE PROPER INTERNET<br>
+               USE PROPER LAPTOP OR MOBILE<br>
+               UPDATE VERSIONS REGULARLY<br>
+               SHOP AS YOUN NEED<br>
+               
+            </p>
+          </div>
+         
+        
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>ONLINE GROCERS
+              </h6>
+              <p>
+              WE PROVIDE KNOWLEDGE WE ENCOURAGE ALL.STAY SAFE 
+              </p>
+            </div>
+   
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <p><i class="fas fa-home me-3"></i>MANGISETTY NAVEEN KUMAR </p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              mnaveenkumar01012000@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> 9573915468</p>
+            <p><i class="fas fa-print me-3"></i> 9381160942</p>
+          </div>
+          
+        </div>
+       
+      </div>
+    </section>
+   
+    <div class="text-center p-4" style="background-color: red;">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="">MANGISETTY NAVEEN KUMAR</a>
+    </div>
+   
+  </footer>
+</html>
